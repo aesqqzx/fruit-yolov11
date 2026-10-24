@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['apple', 'banana', 'orange']
+
+roboflow:
+  workspace: ssss-workspace-ncm0k
+  project: fruit-g5rme
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/ssss-workspace-ncm0k/fruit-g5rme/3
